@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Map from './Map.svelte';
+	import Map from '$lib/Map.svelte';
 </script>
 
 <div class="mb-24 p-6 text-center text-2xl md:text-4xl">
@@ -13,5 +13,7 @@
 		>.
 	</p>
 
-	<Map />
+	<div class="h-96 h-[648px]">
+		<Map />
+	</div>
 </div>
