@@ -1,5 +1,4 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
-@import '@fontsource/great-vibes/400.css';
+@import '@fontsource/great-vibes';

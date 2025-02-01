@@ -1,5 +1,7 @@
 <script lang="ts">
 	import heroine from './heroine.jpg';
+	import Schedule from './Schedule.svelte';
+	import RSVP from './RSVP.svelte';
 </script>
 
 <img src={heroine} alt="Ela, Lena und Rika" class="mb-20" />
@@ -22,74 +24,7 @@
 		</p>
 	</div>
 
-	<div class="mb-24 p-6 text-center text-3xl md:text-5xl">
-		<h2 class="mb-4 text-4xl md:text-7xl">Programm</h2>
-		<div class="flex w-full flex-col">
-			<div class="flex gap-24 lg:flex-row">
-				<div>ab 10:00</div>
-				<div>Ankunft</div>
-				<!-- Taxiservice? -->
-			</div>
-			<div class="flex gap-24 lg:flex-row">
-				<div>11:00</div>
-				<div>Brunch & Flammkuchen</div>
-				<!-- Roggen Sauerteig, Züpfe und Croissants. süss und herzhaft stickers "Recommended by Ela/Lena" -->
-			</div>
-			<div class="flex gap-24 lg:flex-row">
-				<div>13:30</div>
-				<div>Kleiner Spaziergang (ca. 30 min)</div>
-				<!-- 30min-45min -->
-			</div>
-			<div class="flex gap-24 lg:flex-row">
-				<div>15:00</div>
-				<div>Zeremonie</div>
-				<!-- 30min. Selfmoderated? -->
-			</div>
-			<div class="flex gap-24 lg:flex-row">
-				<div>16:00</div>
-				<div>Kaffee und Kuchen</div>
-				<!-- Kleinere Torte und Kuchenbuffet -->
-			</div>
-			<div class="flex gap-24 lg:flex-row">
-				<div>ab 18:00</div>
-				<div>Marroni, Warmer Apfelsaft und Spiele</div>
-				<!-- Kürzere, soziale Brettspiele -->
-			</div>
-		</div>
-	</div>
+	<Schedule />
 
-	<div class="mb-24 p-6 text-center text-3xl md:text-5xl">
-		<h2 class="mb-8 text-4xl md:text-7xl">Teilnahme</h2>
-		<form
-			class="flex flex-col items-start gap-6"
-			action="https://formspree.io/f/mdkaawwe"
-			method="POST"
-		>
-			<div class="mb-8 flex w-full flex-col items-center gap-4 lg:flex-row lg:gap-12">
-				<input type="radio" id="yes" name="participation" value="yes" checked />
-				<label for="yes">Ja, ich nehme teil</label>
-			</div>
-			<div class="mb-8 flex w-full flex-col items-center gap-4 lg:flex-row lg:gap-12">
-				<input type="radio" id="no" name="participation" value="no" />
-				<label for="no">Nein, ich nehme nicht teil</label>
-			</div>
-			<div class="mb-8 flex w-full flex-col items-center gap-4 lg:flex-row lg:gap-12">
-				<label for="number">Anzahl Erwachsene (inkl. Dir)</label>
-				<input type="number" id="number" name="number" value="1" />
-			</div>
-			<div class="flex w-full items-center justify-between">
-				<label for="name">Name</label>
-				<input class="border-2 px-4 py-1" type="text" id="name" name="name" />
-			</div>
-			<div class="mb-8 flex w-full items-center justify-between">
-				<label for="email">E-Mail</label>
-				<input class="border-2 px-4 py-1" type="email" id="email" name="email" />
-			</div>
-			<div class="flex w-full justify-center">
-				<button type="submit" class="rounded bg-green-900 p-5 text-white hover:bg-green-800"
-					>Abschicken</button
-				>
-			</div>
-		</form>
-	</div>
+	<RSVP />
 </div>
