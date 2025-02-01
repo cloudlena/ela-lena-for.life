@@ -2,7 +2,7 @@
 	import rebstock from './rebstock.jpg';
 	import schusterjunge from './schusterjunge.avif';
 	import linde from './linde.jpg';
-	import waldulm from './rebstock-waldulm.html';
+	import waldulm from './rebstock-waldulm.jpg';
 	import faxe from './faxe.jpg';
 	import williams from './williams.jpg';
 	import prinzen from './prinzen.jpeg';
