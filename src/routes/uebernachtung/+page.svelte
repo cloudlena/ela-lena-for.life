@@ -5,7 +5,7 @@
 	import waldulm from './rebstock-waldulm.jpg';
 	import faxe from './faxe.jpg';
 	import williams from './williams.jpg';
-	import prinzen from './prinzen.jpeg';
+	import prinzen from './prinzen.jpg';
 	import perle from './perle.jpg';
 	import spinner from './spinner.jpg';
 	import mighty2 from './mighty2.jpg';

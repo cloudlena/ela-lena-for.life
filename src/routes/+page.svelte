@@ -1,6 +1,7 @@
 <script lang="ts">
 	import heroine from './heroine.jpg';
 	import Schedule from './Schedule.svelte';
+	import Venue from './Venue.svelte';
 	import RSVP from './RSVP.svelte';
 </script>
 
@@ -25,6 +26,8 @@
 	</div>
 
 	<Schedule />
+
+	<Venue />
 
 	<RSVP />
 </div>
