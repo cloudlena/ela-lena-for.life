@@ -13,7 +13,7 @@
 		>.
 	</p>
 
-	<div class="h-96 h-[648px]">
+	<div class="h-80 md:h-[648px]">
 		<Map />
 	</div>
 </div>

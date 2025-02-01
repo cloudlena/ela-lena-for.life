@@ -206,12 +206,12 @@
 </script>
 
 <div class="mx-auto max-w-4xl">
-	<div class="mb-24 text-center">
+	<div class="mb-24 mt-12 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Übernachtungsmöglichkeiten</h1>
 		<p class="text-3xl md:text-5xl">in der Umgebung</p>
 	</div>
 
-	<div class="mb-16 h-[648px] p-6">
+	<div class="mb-16 h-80 px-6 md:h-[648px]">
 		<Map markers={stays} />
 	</div>
 
@@ -222,7 +222,7 @@
 				<div class="px-6">
 					<div class="mb-4 min-h-14 text-xl font-bold">{stay.name}</div>
 					<p class="mb-4 text-base text-gray-700">
-						<strong>-> {stay.distanceMinutes} min</strong><br />
+						<strong>↱ {stay.distanceMinutes} min</strong><br />
 						{stay.rating}
 						{'★'.repeat(Math.floor(stay.rating))}{'✭'.repeat(
 							Math.round(stay.rating - Math.floor(stay.rating))

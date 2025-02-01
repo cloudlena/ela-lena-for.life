@@ -17,25 +17,25 @@
 </script>
 
 <div class="mx-auto max-w-4xl">
-	<div class="mb-24 text-center">
+	<div class="mb-24 mt-12 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Geschenke</h1>
-		<p class="text-2xl md:text-4xl">Diese Sachen wünschen wir uns schon lange.</p>
+		<p class="text-2xl md:text-4xl">Diese Sachen wünschen wir uns schon lange</p>
 	</div>
 
 	<div class="mb-24 grid gap-6 p-6 text-center text-3xl md:grid-cols-3 md:text-5xl">
 		{#each gifts as gift}
-			<div class="max-w-sm overflow-hidden rounded shadow-lg">
-				<img class="w-full" src={gift.image} alt={gift.name} />
-				<div class="px-6 py-4">
-					<div class="mb-2 text-xl font-bold">{gift.name}</div>
-					<p class="text-base text-gray-700">
+			<div class="max-w-sm overflow-hidden rounded bg-white shadow-lg">
+				<img class="mb-6 h-40 w-full object-cover" src={gift.image} alt={gift.name} />
+				<div class="px-6">
+					<div class="mb-4 min-h-14 text-xl font-bold">{gift.name}</div>
+					<p class="mb-4 text-base text-gray-700">
 						{gift.description}
 					</p>
 				</div>
-				<div class="px-6 pb-2 pt-4">
+				<div class="flex px-6 pb-2">
 					<a
-						class="mb-2 mr-2 inline-block rounded-full bg-gray-300 px-3 py-1 text-sm font-semibold text-gray-700 hover:bg-gray-400"
-						href="/"
+						class="mb-2 mr-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-gray-700 text-white hover:bg-gray-400 hover:bg-green-800"
+						href="/danke"
 						target="_blank"
 						rel="noopener noreferrer">Schenken</a
 					>

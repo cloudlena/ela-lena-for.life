@@ -56,10 +56,10 @@
 		</div>
 		{#if isComing}
 			<div class="mb-8">
-				<label for="number" class="mb-2 block text-left">Anzahl Erwachsene</label>
+				<label for="guests" class="mb-2 block text-left">Anzahl Erwachsene</label>
 				<input
-					id="number"
-					name="number"
+					id="guests"
+					name="guests"
 					type="number"
 					value="1"
 					class="block w-full rounded-sm border border-gray-300 p-2 focus:border-green-500 focus:ring-green-500"
