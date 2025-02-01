@@ -14,7 +14,7 @@
 	import jaeger from './jaeger.webp';
 	import leben from './leben.jpeg';
 	import heimat from './heimat.jpg';
-	import baeuerlehof from 'baeuerlehof.jpg';
+	import baeuerlehof from './baeuerlehof.jpg';
 
 	interface Stay {
 		name: string;
