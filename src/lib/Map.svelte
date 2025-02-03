@@ -45,7 +45,6 @@
 					);
 			});
 
-			// Add MutImBauch
 			leaflet
 				.marker(COORDINATES_MUTIMBAUCH, {
 					icon: leaflet.icon({
@@ -55,7 +54,7 @@
 				})
 				.addTo(map)
 				.bindPopup(
-					'<strong>Lebenshof MutImBauch</strong><br /><br /><a href="https://mutimbauch.de/" target="_blank" rel="noopener noreferrer">Zur Website</a><br /><br /><a href="https://maps.app.goo.gl/rGpZ7awpXJhwmpQq7" target="_blank" rel="noopener noreferrer">Zu Google Maps</a>'
+					'<strong>Lebenshof Mut Im Bauch</strong><br /><br /><a href="https://lebenshof-mutimbauch.de/" target="_blank" rel="noopener noreferrer">Zur Website</a><br /><br /><a href="https://maps.app.goo.gl/rGpZ7awpXJhwmpQq7" target="_blank" rel="noopener noreferrer">Zu Google Maps</a>'
 				);
 		}
 	});
