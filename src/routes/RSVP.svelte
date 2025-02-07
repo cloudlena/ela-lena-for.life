@@ -1,9 +1,10 @@
 <script lang="ts">
-	let isComing = true;
+	let isComing = $state(true);
 </script>
 
 <div class="mb-24 p-6 text-center text-2xl md:text-4xl">
-	<h2 class="mb-8 text-4xl md:text-7xl">Teilnahme</h2>
+	<h2 class="mb-4 text-4xl md:text-7xl">Teilnahme</h2>
+	<p class="mb-12 text-gray-700">Bitte bis Ende März ausfüllen</p>
 
 	<form class="mx-auto max-w-sm" action="https://formspree.io/f/mdkaawwe" method="POST">
 		<div class="mb-4">
@@ -67,9 +68,17 @@
 				/>
 			</div>
 		{/if}
+		<div class="mb-8">
+			<label for="remarks" class="mb-2 block text-left">Fragen / Anmerkungen</label>
+			<textarea
+				name="remarks"
+				id="remarks"
+				class="block w-full rounded-sm border border-gray-300 p-2 focus:border-green-500 focus:ring-green-500"
+			></textarea>
+		</div>
 		<button
 			type="submit"
-			class="w-full rounded-lg bg-green-800 px-5 py-2 text-center text-white hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300"
+			class="w-full rounded-lg bg-green-800 px-5 py-2 text-center text-white hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 disabled:bg-gray-400"
 			>Absenden</button
 		>
 	</form>

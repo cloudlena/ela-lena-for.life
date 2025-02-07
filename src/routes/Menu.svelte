@@ -1,5 +1,5 @@
 <script lang="ts">
-	let showMenu = false;
+	let showMenu = $state(false);
 
 	interface Entry {
 		label: string;
@@ -29,7 +29,7 @@
 				<li class="py-4">
 					<a
 						class="hover:text-green-700"
-						on:click={toggleMenu}
+						onclick={toggleMenu}
 						href={entry.link}
 						target={entry.newTab ? '_blank' : '_self'}
 						rel="noopener noreferrer">{entry.label}</a
@@ -40,7 +40,7 @@
 	</div>
 {/if}
 
-<button on:click={toggleMenu}>
+<button onclick={toggleMenu}>
 	<div
 		class="text-middle fixed right-2 top-2 flex h-12 w-12 items-center justify-center rounded-full bg-amber-100 opacity-50 shadow-md hover:bg-amber-200 md:right-4 md:top-4"
 		style="z-index:9999"

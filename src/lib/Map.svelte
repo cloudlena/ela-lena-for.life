@@ -5,14 +5,16 @@
 	import heartIcon from '$lib/heart.png';
 	import homeIcon from '$lib/home.png';
 
-	interface Marker {
-		name: string;
-		link: string;
-		coordinates: LatLngExpression;
-		googleMapsID: string;
+	interface Props {
+		markers: {
+			name: string;
+			link: string;
+			coordinates: LatLngExpression;
+			googleMapsID: string;
+		}[];
 	}
 
-	export let markers: Marker[] = [];
+	let { markers = [] }: Props = $props();
 
 	const COORDINATES_MUTIMBAUCH: LatLngExpression = [48.5836, 8.1472];
 
