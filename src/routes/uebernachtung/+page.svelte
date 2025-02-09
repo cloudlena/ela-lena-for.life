@@ -206,7 +206,7 @@
 </script>
 
 <div class="mx-auto max-w-4xl">
-	<div class="mb-24 mt-12 text-center">
+	<div class="mt-12 mb-24 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Übernachtungsmöglichkeiten</h1>
 		<p class="text-3xl md:text-5xl">in der Umgebung</p>
 	</div>
@@ -231,13 +231,13 @@
 				</div>
 				<div class="flex px-6 pb-2">
 					<a
-						class="mb-2 mr-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-gray-700 text-white hover:bg-gray-400 hover:bg-green-800"
+						class="mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
 						href={stay.link}
 						target="_blank"
 						rel="noopener noreferrer">Website</a
 					>
 					<a
-						class="mb-2 mr-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-gray-700 text-white hover:bg-gray-400 hover:bg-green-800"
+						class="mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
 						href="https://maps.app.goo.gl/{stay.googleMapsID}"
 						target="_blank"
 						rel="noopener noreferrer">Google Maps</a

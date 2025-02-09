@@ -1,4 +1,9 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwindcss';
 @import '@fontsource/great-vibes';
+
+:root {
+	--font-serif: 'Great Vibes', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+	--color-text: var(--color-green-900);
+	font-family: var(--font-serif);
+	color: var(--color-text);
+}

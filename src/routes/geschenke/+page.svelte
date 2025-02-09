@@ -17,7 +17,7 @@
 </script>
 
 <div class="mx-auto max-w-4xl">
-	<div class="mb-24 mt-12 text-center">
+	<div class="mt-12 mb-24 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Geschenke</h1>
 		<p class="text-2xl md:text-4xl">Diese Sachen wünschen wir uns schon lange</p>
 	</div>
@@ -34,7 +34,7 @@
 				</div>
 				<div class="flex px-6 pb-2">
 					<a
-						class="mb-2 mr-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-gray-700 text-white hover:bg-gray-400 hover:bg-green-800"
+						class="mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
 						href="/danke"
 						target="_blank"
 						rel="noopener noreferrer">Schenken</a

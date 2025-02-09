@@ -2,11 +2,11 @@
 	import { onMount, onDestroy } from 'svelte';
 	import type { Map, LatLngExpression } from 'leaflet';
 	import { browser } from '$app/environment';
-	import heartIcon from '$lib/heart.png';
-	import homeIcon from '$lib/home.png';
+	import heartIcon from '$lib/images/heart.png';
+	import homeIcon from '$lib/images/home.png';
 
 	interface Props {
-		markers: {
+		markers?: {
 			name: string;
 			link: string;
 			coordinates: LatLngExpression;

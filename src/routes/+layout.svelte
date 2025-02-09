@@ -1,12 +1,14 @@
 <script lang="ts">
-	import '../app.css';
 	import Menu from './Menu.svelte';
+	import '../app.css';
 
 	let { children } = $props();
 </script>
 
 <div>
-	{@render children()}
+	<main>
+		{@render children()}
+	</main>
 
 	<Menu />
 </div>

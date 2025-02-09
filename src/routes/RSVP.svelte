@@ -4,7 +4,7 @@
 
 <div class="mb-24 p-6 text-center text-2xl md:text-4xl">
 	<h2 class="mb-4 text-4xl md:text-7xl">Teilnahme</h2>
-	<p class="mb-12 text-gray-700">Bitte bis Ende März ausfüllen</p>
+	<p class="mb-12 text-xl text-gray-700 md:text-2xl">Bitte bis Ende März ausfüllen!</p>
 
 	<form class="mx-auto max-w-sm" action="https://formspree.io/f/mdkaawwe" method="POST">
 		<div class="mb-4">
@@ -12,7 +12,7 @@
 			<input
 				id="name"
 				name="name"
-				class="block w-full rounded-sm border border-gray-300 p-2 focus:border-green-500 focus:ring-green-500"
+				class="block w-full rounded-sm border border-gray-300 bg-white p-2 focus:border-green-600 focus:ring-green-600"
 				required
 			/>
 		</div>
@@ -22,7 +22,7 @@
 				id="email"
 				name="email"
 				type="email"
-				class="block w-full rounded-sm border border-gray-300 p-2 focus:border-green-500 focus:ring-green-500"
+				class="block w-full rounded-sm border border-gray-300 bg-white p-2 focus:border-green-600 focus:ring-green-600"
 				required
 			/>
 		</div>
@@ -34,12 +34,12 @@
 					name="rsvp"
 					bind:group={isComing}
 					value={true}
-					class="focus:ring-3 h-4 w-4 rounded-sm border border-gray-300 bg-gray-50 focus:ring-blue-300"
+					class="h-4 w-4 rounded-sm border border-gray-300 bg-gray-50 focus:ring-3 focus:ring-blue-300"
 					required
 					checked
 				/>
 			</div>
-			<label for="yes" class="ms-2 font-medium text-green-900">Ich bin dabei</label>
+			<label for="yes" class="ms-2 font-medium">Ich bin dabei</label>
 		</div>
 		<div class="mb-8 flex items-start gap-4 px-4">
 			<div class="flex h-5 items-center">
@@ -49,11 +49,11 @@
 					name="rsvp"
 					bind:group={isComing}
 					value={false}
-					class="focus:ring-3 h-4 w-4 rounded-sm border border-gray-300 bg-gray-50 focus:ring-blue-300"
+					class="h-4 w-4 rounded-sm border border-gray-300 bg-gray-50 focus:ring-3 focus:ring-blue-300"
 					required
 				/>
 			</div>
-			<label for="no" class="ms-2 font-medium text-green-900">Ich kann nicht kommen</label>
+			<label for="no" class="ms-2 font-medium">Ich kann nicht kommen</label>
 		</div>
 		{#if isComing}
 			<div class="mb-8">
@@ -63,7 +63,7 @@
 					name="guests"
 					type="number"
 					value="1"
-					class="block w-full rounded-sm border border-gray-300 p-2 focus:border-green-500 focus:ring-green-500"
+					class="block w-full rounded-sm border border-gray-300 bg-white p-2 focus:border-green-600 focus:ring-green-600"
 					required
 				/>
 			</div>
@@ -73,12 +73,12 @@
 			<textarea
 				name="remarks"
 				id="remarks"
-				class="block w-full rounded-sm border border-gray-300 p-2 focus:border-green-500 focus:ring-green-500"
+				class="block w-full rounded-sm border border-gray-300 bg-white p-2 focus:border-green-600 focus:ring-green-600"
 			></textarea>
 		</div>
 		<button
 			type="submit"
-			class="w-full rounded-lg bg-green-800 px-5 py-2 text-center text-white hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 disabled:bg-gray-400"
+			class="w-full cursor-pointer rounded-lg bg-green-900 px-5 py-2 text-center text-white hover:bg-green-700 focus:ring-4 focus:ring-green-600 focus:outline-none"
 			>Absenden</button
 		>
 	</form>

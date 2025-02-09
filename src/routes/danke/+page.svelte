@@ -1,5 +1,5 @@
 <div class="mx-auto max-w-4xl">
-	<div class="mb-24 mt-12 text-center">
+	<div class="mt-12 mb-24 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Danke!</h1>
 	</div>
 

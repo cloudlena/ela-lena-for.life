@@ -21,14 +21,14 @@
 
 {#if showMenu}
 	<div
-		class="fixed left-0 top-0 w-full bg-amber-100 text-center text-3xl text-green-900 opacity-95 shadow-md"
+		class="fixed top-0 left-0 w-full bg-amber-100 text-center text-3xl opacity-95 shadow-md"
 		style="z-index:9998"
 	>
 		<ul class="my-8">
 			{#each entries as entry}
 				<li class="py-4">
 					<a
-						class="hover:text-green-700"
+						class="hover:text-green-600"
 						onclick={toggleMenu}
 						href={entry.link}
 						target={entry.newTab ? '_blank' : '_self'}
@@ -40,9 +40,9 @@
 	</div>
 {/if}
 
-<button onclick={toggleMenu}>
+<button class="cursor-pointer" onclick={toggleMenu}>
 	<div
-		class="text-middle fixed right-2 top-2 flex h-12 w-12 items-center justify-center rounded-full bg-amber-100 opacity-50 shadow-md hover:bg-amber-200 md:right-4 md:top-4"
+		class="text-middle fixed top-2 right-2 flex h-12 w-12 items-center justify-center rounded-full bg-amber-100 opacity-50 shadow-md hover:bg-amber-200 md:top-4 md:right-4"
 		style="z-index:9999"
 	>
 		<svg
