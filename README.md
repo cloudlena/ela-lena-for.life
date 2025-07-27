@@ -6,7 +6,7 @@ The website for Ela and Lena's wedding. Reachable at <https://ela-lena-for.life>
 
 Once you've installed dependencies with `npm install`, start a development server:
 
-```bash
+```sh
 npm run dev
 
 # or start the server and open the app in a new browser tab
@@ -17,7 +17,7 @@ npm run dev -- --open
 
 To create a production version:
 
-```bash
+```sh
 npm run build
 ```
 
