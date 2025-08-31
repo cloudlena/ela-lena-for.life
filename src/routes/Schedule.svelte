@@ -3,26 +3,20 @@
 	<div class="grid w-full grid-cols-[5em_auto] gap-y-6 text-left">
 		<div>ab 10:00</div>
 		<div>Ankunft</div>
-		<!-- Taxiservice? -->
 
 		<div>11:00</div>
-		<div>Brunch & Flammkuchen</div>
-		<!-- Roggen Sauerteig, Züpfe und Croissants. süss und herzhaft stickers "Recommended by Ela/Lena" -->
+		<div>Brunch & Waffeln</div>
 
 		<div>14:00</div>
 		<div>Kleiner Spaziergang (ca. 30 min)</div>
-		<!-- 30min-45min -->
 
 		<div>15:00</div>
 		<div>Zeremonie</div>
-		<!-- 30min. Selfmoderated? -->
 
 		<div>16:00</div>
 		<div>Kaffee und Kuchen</div>
-		<!-- Kleinere Torte und Kuchenbuffet -->
 
 		<div>ab 18:00</div>
-		<div>Suppe, warmer Apfelsaft und Spiele</div>
-		<!-- Kürzere, soziale Brettspiele -->
+		<div>Flammkuchen, warmer Apfelsaft und Spiele</div>
 	</div>
 </div>
