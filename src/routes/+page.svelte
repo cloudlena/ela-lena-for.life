@@ -8,12 +8,12 @@
 <img src={hero} alt="Ela, Lena und Rika" class="mb-20" />
 
 <div class="mx-auto max-w-4xl">
-	<div class="mb-24 text-center">
+	<header class="mb-24 text-center">
 		<h1 class="mb-4 text-5xl md:text-8xl">Raphaela & Lena</h1>
-		<p class="text-3xl md:text-6xl">20.09.2025</p>
-	</div>
+		<p class="tagline text-3xl md:text-6xl">20.09.2025</p>
+	</header>
 
-	<div class="mb-24 p-6 text-center text-3xl md:text-5xl">
+	<div class="tagline mb-24 p-6 text-center text-3xl md:text-5xl">
 		<p class="mb-8">
 			Du hast uns auf unserem Weg begleitet und bist uns wichtig. Wir laden Dich herzlich dazu ein,
 			unsere Liebe mit uns zu feiern.

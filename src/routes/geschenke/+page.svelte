@@ -65,12 +65,12 @@
 </script>
 
 <div class="mx-auto max-w-4xl">
-	<div class="mt-12 mb-24 px-4 text-center">
+	<header class="mt-12 mb-24 px-4 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Geschenke</h1>
-		<p class="text-2xl md:text-4xl">
+		<p class="tagline text-2xl md:text-4xl">
 			Diese Sachen wünschen wir uns schon lange. Gerne könnt ihr uns einen Anteil daran schenken.
 		</p>
-	</div>
+	</header>
 
 	<div class="mb-24 grid gap-6 p-6 text-center text-3xl md:grid-cols-3 md:text-5xl">
 		{#each gifts as gift (gift.name)}
@@ -82,7 +82,7 @@
 				</div>
 				<div class="flex px-6 pb-2">
 					<a
-						class="mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
+						class="button mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
 						href="/danke?gift={gift.name}"
 						target="_blank"
 						rel="noopener noreferrer">Anteil Schenken</a

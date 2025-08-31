@@ -9,9 +9,9 @@
 </script>
 
 <div class="mx-auto max-w-4xl">
-	<div class="mt-12 mb-24 text-center">
+	<header class="mt-12 mb-24 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Vielen Dank!</h1>
-	</div>
+	</header>
 
 	<div class="mb-24 p-6 text-center text-2xl md:text-3xl">
 		Bitte benutze Twint oder überweise den gewünschten Betrag mit dem an:<br /><br />

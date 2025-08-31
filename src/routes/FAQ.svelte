@@ -78,7 +78,7 @@
 	}
 </script>
 
-<div class="mb-24 p-6 text-center text-2xl md:text-3xl">
+<div class="mb-24 p-6 text-center text-2xl">
 	<h2 class="mb-10 text-4xl md:text-7xl">Häufige Fragen</h2>
 	<div class="mb-2 overflow-hidden">
 		{#each items as item, i (item.question)}

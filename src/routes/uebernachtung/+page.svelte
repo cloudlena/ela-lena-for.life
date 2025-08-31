@@ -206,10 +206,10 @@
 </script>
 
 <div class="mx-auto max-w-4xl">
-	<div class="mt-12 mb-24 text-center">
+	<header class="mt-12 mb-24 text-center">
 		<h1 class="mb-4 text-4xl md:text-6xl">Übernachtungsmöglichkeiten</h1>
-		<p class="text-3xl md:text-5xl">in der Umgebung</p>
-	</div>
+		<p class="tagline text-3xl md:text-5xl">in der Umgebung</p>
+	</header>
 
 	<div class="mb-16 h-80 px-6 md:h-[648px]">
 		<Map markers={stays} />
@@ -231,13 +231,13 @@
 				</div>
 				<div class="flex px-6 py-2">
 					<a
-						class="mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
+						class="button mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
 						href={stay.link}
 						target="_blank"
 						rel="noopener noreferrer">Website</a
 					>
 					<a
-						class="mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
+						class="button mr-2 mb-2 inline-block w-full rounded-full bg-green-900 px-3 py-1 text-sm font-semibold text-white hover:bg-green-700"
 						href="https://maps.app.goo.gl/{stay.googleMapsID}"
 						target="_blank"
 						rel="noopener noreferrer">Google Maps</a
