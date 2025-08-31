@@ -2,8 +2,21 @@
 @import '@fontsource/great-vibes';
 
 :root {
-	--font-serif: 'Great Vibes', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+	--font-sans:
+		'Great Vibes', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+		'Segoe UI Symbol', 'Noto Color Emoji';
 	--color-text: var(--color-green-900);
 	font-family: var(--font-serif);
 	color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.button,
+.tagline {
+	font-family: var(--font-sans);
 }
