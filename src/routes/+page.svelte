@@ -1,33 +1,34 @@
 <script lang="ts">
-	import Schedule from './Schedule.svelte';
-	import Venue from './Venue.svelte';
-	import FAQ from './FAQ.svelte';
-	import hero from '$lib/images/hero.jpg';
+	import wedibox from '$lib/images/wedibox.jpg';
+	import picdrop from '$lib/images/picdrop.jpg';
 </script>
 
-<img src={hero} alt="Ela, Lena und Rika" class="mb-20" />
-
 <div class="mx-auto max-w-4xl">
-	<header class="mb-24 text-center">
+	<header class="my-24 text-center">
 		<h1 class="mb-4 text-5xl md:text-8xl">Raphaela & Lena</h1>
 		<p class="tagline text-3xl md:text-6xl">20.09.2025</p>
 	</header>
 
-	<div class="tagline mb-24 p-6 text-center text-3xl md:text-5xl">
-		<p class="mb-8">
-			Du hast uns auf unserem Weg begleitet und bist uns wichtig. Wir laden Dich herzlich dazu ein,
-			unsere Liebe mit uns zu feiern.
-		</p>
-		<p class="mb-8">Am 20.9. 2025 heiraten wir auf dem Lebenshof "Mut im Bauch" im Schwarzwald.</p>
-		<p>
-			Erscheine so, wie Du Dich wohlfühlst. Sei einfach Du selbst, mit all Deinen Farben und dem,
-			was Dich ausmacht.
-		</p>
+	<div class="tagline mb-12 p-6 text-center text-3xl md:text-5xl">
+		<p>Vielen Dank ♡ Merci viumau</p>
 	</div>
 
-	<Schedule />
-
-	<Venue />
-
-	<FAQ />
+	<div class="flex flex-col items-center justify-between gap-4 text-center lg:flex-row">
+		<a
+			href="https://my.wedibox.com/rec9a3EKJsJwKm7c"
+			target="_blank"
+			class="rounded-lg p-8 hover:bg-green-900 hover:text-amber-100 hover:shadow-lg"
+		>
+			<img src={wedibox} alt="Gäste" class="mb-6 w-full max-w-96 rounded-lg" />
+			<p class="text-3xl">Bilder von Euch</p>
+		</a>
+		<a
+			href="https://www.picdrop.com/jujuel/s6WikqK2iJ"
+			target="_blank"
+			class="rounded-lg p-8 hover:bg-green-900 hover:text-amber-100 hover:shadow-2xl"
+		>
+			<img src={picdrop} alt="Fotografin" class="mb-6 w-full max-w-96 rounded-lg" />
+			<p class="text-3xl">Bilder von der Fotografin</p>
+		</a>
+	</div>
 </div>
